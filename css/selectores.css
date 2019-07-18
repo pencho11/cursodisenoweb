@@ -1,0 +1,74 @@
+/* Selector universal 
+*{ color: red;}
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+/*selectores descendientes,
+estamos selecionando por
+capas. IMPORTANTE.*/
+
+div p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+div article p {
+    font-size: 20px;
+    color: #159673;
+    font-weight: bold;
+}
+
+/*No importa las capas que 
+esten dentro del div
+la forma descendiente lo
+detecta*/
+div p {
+    font-size: 20px;
+    color: #159608;
+    font-weight: bold;
+}
+
+p a {
+    color: #812424;
+}
+
+/*SOLO CLASES
+así se manejan los
+estilos de CSS
+se pueden llamar las clases
+de diferente forma 
+segun la situación 
+que lo solicite.*/
+.grande {
+    font-size: 20px;
+}
+.rojo {
+	color:red;
+}
+/*ID SOLO PARA JAVASCRIPT
+nunca utilizarlo
+para dar estilos
+contienen otra función 
+que ser un identificador
+unico.*/
+/*#grande {
+    font-size: 28px;
+}*/
+
+/*Basicamente son filtros
+que nos permiten 
+acceder a los elementos*/
+.main article p{
+
+}

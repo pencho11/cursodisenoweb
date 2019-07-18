@@ -1,0 +1,19 @@
+div > p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type]{}
+input[type="text"]{}
+
+/*herencia*/
+body {
+	font-size: 20px;
+	color: darkcyan;
+}
+
+article {
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+}

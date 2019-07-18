@@ -1,0 +1,35 @@
+a{
+	font-size: 20px;
+	text-decoration:none;
+	/*text-decoration:underline;*/
+	/*text-decoration:line-through;*/
+
+}
+
+/*El estado del enlace mientras pasa ek mause 
+por: */
+a:hover{
+	background: #f9a03f;
+	color:#fff;
+}
+
+/*Cambia el color al enlace que no
+hemos visitado*/
+a:link{
+	text-decoration: none;
+	color:red;
+}
+
+/*Cambiar color a enlaces visitados.*/
+a:visited {
+	text-decoration: line-through;
+	color:#ccc;
+}
+
+/*Cuando le doy click muestre
+un subrayado */
+/* Estado del enlace mientras se esta haciendo click */
+a:active{
+	text-decoration: underline;
+	color: #0C4B1C;
+}

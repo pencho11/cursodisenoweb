@@ -1,0 +1,26 @@
+/** {
+    padding: 0;
+    margin: 0;
+}
+*/
+.caja {
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+    /*transform: translate(300px, 0px); 
+	Transladar elemtos cuando nosotros queramos*/
+    /*transform: scale(1.1,1.1); Para el doble del tamaño*/
+    /*transform: rotate(10deg); Sirve para rotar elementos*/
+    /*transform: skew(20deg, 0deg);*/
+    transform: translate(200px) scale(1.5, 1.5) rotate(10deg);
+    -mox-transform: translate(200px) scale(1.5, 1.5) rotate(10deg);
+    -webkit-transform: translate(200px) scale(1.5, 1.5) rotate(10deg);
+}
+
+/*
+Nos sirve para hace animaciones.
+Cosas que podemos hacen con trasnform:
+-Trasladar elementos
+-Escala elementos
+-Rotar elementos
+-Sesgar elementos*/
