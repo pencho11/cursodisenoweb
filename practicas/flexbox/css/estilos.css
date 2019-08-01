@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #000 url('imagenes/fondo.jpg');
+    background: #000 url('../imagenes/fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -99,7 +99,7 @@ footer {
     color: #fff;
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
@@ -117,9 +117,9 @@ footer .redes-sociales a:hover {
 
 @media screen and (max-width: 800px) {
     .main {
-         width: 100%;
+        width: 100%;
     }
-	
+
     aside {
         width: 100%;
         flex-direction: row;
@@ -154,7 +154,7 @@ footer .redes-sociales a:hover {
     }
 
     header .menu a:hover {
-        border: 0.1 solid rgba(255, 255, 255, 1.2);
+        border: 0.1 solid rgba(255, 255, 255, .1.2);
         border-radius: 10px;
         background: rgba(255, 255, 255, .10);
     }
@@ -162,8 +162,8 @@ footer .redes-sociales a:hover {
     header .logo {
         margin-bottom: 20px;
     }
-		
-		
+
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -173,14 +173,14 @@ footer .redes-sociales a:hover {
         order: 2;
     }
 
-    footer .redes-sociales{
-    	order:1;
-    	margin-bottom: 20px;
+    footer .redes-sociales {
+        order: 1;
+        margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width: 400px){
-	aside{
-		display: none;
-	}
+@media screen and (max-width: 400px) {
+    aside {
+        display: none;
+    }
 }
