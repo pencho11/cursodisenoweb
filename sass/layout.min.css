@@ -1,0 +1,8 @@
+*{padding:0;margin:0}
+body{background:#f2f2f2;font-family:Arial,Sans-serif}
+.contenedor{width:700px;margin:20px}
+.main,aside,footer{padding:20px}
+header{background:#0d2c44;color:#fff}
+.main{background:#fff;width:70%;float:left}
+aside{background:#bb1f35;color:#fff}
+footer{clear:both;width:100%;background:#0d2c44;color:#fff}
