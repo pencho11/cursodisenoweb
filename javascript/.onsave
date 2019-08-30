@@ -1,4 +1,4 @@
-CONSOLE: right
+CONSOLE : right
 
 LISTENER:
-	-	CMD :cp introduccion.html index2.html
+	- CMD :cp introduccion.html index2.html
