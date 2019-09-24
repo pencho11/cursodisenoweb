@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Objetos en Javascript</title>
+</head>
+<body>
+	<script>
+		// var nombre = 'Ruben';
+		// var edad = 22;
+		// var pais = 'Colombia';
+
+		// var nombre2 = 'Dario';
+		// var edad2 = 20;
+		// var pais2 = 'Colombia';
+
+		// var ruben = {
+		// 	nombre: 'Ruben Dario',
+		// 	edad: 22,
+		// 	pais: 'Colombia',
+		// 	bio: function(){
+		// 		return this.nombre + ' tiene ' + this.edad + ' años '; 				 
+		// 	}
+		// };	
+
+		// var dario = {
+		// 	nombre: 'Dario',
+		// 	edad: 22,
+		// 	pais: 'Colombia',
+		// 	bio: function(){
+		// 		return this.nombre + ' tiene ' + this.edad + ' años '; 				 
+		// 	} 
+		// };
+
+		// document.write(ruben.bio());
+
+		// -------------------------------------
+		
+		function persona(nombre, edad, pais) {
+			this.nombre = nombre;
+			this.edad = edad;
+			this.pais = pais;
+		}
+
+		var papa = new persona('Ruben', 22, 'Colombia');
+		var amigo = new persona('Alex', 32, 'España');
+		var hermano = new persona('Christian', 32, 'Colombia');
+
+		document.write(papa.nombre);
+		document.write('<br>');
+		document.write(amigo.edad);
+	</script>
+</body>
+</html>
