@@ -1,18 +1,19 @@
  const fs = require('fs'),
-    file = "./asset/archivo.txt";
-    // console.time('Sincrono')
+     file = "./asset/archivo.txt";
 
-    // console.log('\nAbriendo archivo...');
+ // console.time('Sincrono')
 
-    // let content
+ // console.log('\nAbriendo archivo...');
 
-    // try {
-    //     content = fs.readFileSync(file, 'utf8');
-    //     console.log(content);
-    // } catch (err) {
-    //     console.log(err.message)
-    // }
+ // let content
 
-    // console.log('\nHaciendo otra cosa\n');
-    // console.log('\nHaciendo otra cosa mas\n');
-    // console.timeEnd ('Sincrono');
+ // try {
+ //     content = fs.readFileSync(file, 'utf8');
+ //     console.log(content);
+ // } catch (err) {
+ //     console.log(err.message)
+ // }
+
+ // console.log('\nHaciendo otra cosa\n');
+ // console.log('\nHaciendo otra cosa mas\n');
+ // console.timeEnd ('Sincrono');

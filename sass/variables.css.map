@@ -1,7 +1,9 @@
 {
-"version": 3,
-"mappings": "AAEC,iBAAO;EACN,KAAK,EAHS,OAAO;AAItB,WAAC;EACA,KAAK,EALS,OAAO",
-"sources": ["variables.sass"],
-"names": [],
-"file": "variables.css"
+    "version": 3,
+    "mappings": "AACA,AACC,SADQ,CACR,OAAO,CAAC;EACP,KAAK,EAHS,OAAO;CAGG;;AAF1B,AAGC,SAHQ,CAGR,CAAC,CAAC;EACD,KAAK,EALS,OAAO;CAKG",
+    "sources": [
+        "variables.sass"
+    ],
+    "names": [],
+    "file": "variables.css"
 }

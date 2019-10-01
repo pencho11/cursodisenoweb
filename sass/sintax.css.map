@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACH,UAAU,EAAC,OAAO;CAClB;;AAED,AAAA,SAAS,CAAA;EACR,UAAU,EAAE,IAAI;CAahB;;AAdD,AAEC,SAFQ,CAER,OAAO,CAAA;EACN,KAAK,EAAE,IAAI;CACX;;AAJF,AAKC,SALQ,CAKR,MAAM,CAAA;EACL,KAAK,EAAC,IAAI;CACV;;AAPF,AAUE,SAVO,CASR,CAAC,CACA,CAAC,CAAC;EACD,eAAe,EAAE,IAAI;CACrB",
+    "sources": [
+        "sintax.scss"
+    ],
+    "names": [],
+    "file": "sintax.css"
+}
