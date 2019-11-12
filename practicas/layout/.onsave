@@ -1,4 +1,0 @@
-CONSOLE : right
-
-LISTENER:
-	- CMD :cp index.html index2.html
