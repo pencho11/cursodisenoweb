@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scrollspy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            /* padding-top: 54px; */
+        }
+        
+        .rh-nav a {
+            color: #fff;
+            padding: 15px;
+        }
+        
+        .rh-nav a:hover,
+        .rh-nav .active {
+            background: rgba(255, 255, 255, .1);
+        }
+        
+        .seccion {
+            margin-bottom: 1000px;
+        }
+        
+        .seccion .columna {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#rh-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="rh-nav" id="rh-nav">
+                    <ul class="rh-nav nav fixed-top navbard-inverse bg-primary">
+                        <li class="nav-item">
+                            <a href="#seccion1" class="nav-link">Seccion #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#seccion2" class="nav-link">Seccion #2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#seccion3" class="nav-link">Seccion #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row seccion" id="seccion1">
+            <div class="col-12 columna">
+                <h2>Seccion 1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi officia cupiditate laboriosam! Cupiditate esse neque provident temporibus enim quia blanditiis nihil nobis a earum culpa quo, sint aliquid voluptatem.</p>
+            </div>
+        </div>
+        <div class="row seccion" id="seccion2">
+            <div class="col-12 columna">
+                <h2>Seccion 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi officia cupiditate laboriosam! Cupiditate esse neque provident temporibus enim quia blanditiis nihil nobis a earum culpa quo, sint aliquid voluptatem.</p>
+            </div>
+        </div>
+        <div class="row seccion" id="seccion3">
+            <div class="col-12 columna">
+                <h2>Seccion 3</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi officia cupiditate laboriosam! Cupiditate esse neque provident temporibus enim quia blanditiis nihil nobis a earum culpa quo, sint aliquid voluptatem.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

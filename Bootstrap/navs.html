@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .rh-nav a {
+            color: #fff;
+            padding: 15px;
+        }
+        
+        .rh-nav .disabled {
+            color: rgba(255, 255, 255, .5);
+        }
+        
+        .rh-nav a:hover {
+            background: rgba(255, 255, 255, .1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12 mt-4">
+                <h3>Menu con ul</h3>
+                <hr>
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 mt-4">
+                <h3>Menu con estilos CSS</h3>
+                <hr>
+
+                <ul class="rh-nav nav bg-primary ">
+                    <li class="nav-item active m-1">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <div class="col-12 mt-4">
+                    <h3>Menu con Nav</h3>
+                    <hr>
+                    <nav class="nav">
+                        <a href="#" class="nav-link">Inicio</a>
+                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">Proximamente</a>
+                        <a href="#" class="nav-link">Contacto</a>
+                    </nav>
+                </div>
+            </nav>
+
+            <div class="col-12 mt-4">
+                <h3>Alineando el menu</h3>
+                <hr>
+                <nav class="nav justify-content-center">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Proximamente</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="col-12 mt-4">
+                <h3>Menu vertical</h3>
+                <hr>
+                <nav class="nav flex-column bg-dark rh-nav">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Proximamente</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
