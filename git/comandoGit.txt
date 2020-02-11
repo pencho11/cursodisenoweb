@@ -1,0 +1,22 @@
+GitHub
+
+Agregar nombre de usuario
+$ git config --global user.name "Ruben Hernandez"
+
+consultar
+$ git config user.name
+
+Agregar correo vinculado
+git config --global user.email "ldmlatribuna@hotmail.com"
+
+Empezar repositorios 
+git init
+
+Ver estado actual del repositorio
+git status
+
+montar archivos al repositorio 
+git add -A 
+
+El commit es para hacer una nueva version
+git commit -M "Nombre de nueva version"
