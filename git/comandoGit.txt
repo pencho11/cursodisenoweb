@@ -17,6 +17,10 @@ git status
 
 montar archivos al repositorio 
 git add -A 
+git add . 
 
 El commit es para hacer una nueva version
 git commit -M "Nombre de nueva version"
+
+terminar de subir el repositorio
+git push
