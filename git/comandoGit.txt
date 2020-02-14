@@ -24,3 +24,13 @@ git commit -M "Nombre de nueva version"
 
 terminar de subir el repositorio
 git push
+
+
+Para eliminar un archivo o carpeta
+git rm 'git/comandoGit.txt'
+
+Loguear todos los commits
+git log
+
+la estadisticas del codigo
+git log --stat
