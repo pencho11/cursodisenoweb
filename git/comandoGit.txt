@@ -34,3 +34,19 @@ git log
 
 la estadisticas del codigo
 git log --stat
+
+grafica con ramas
+git log --graph
+
+Mostrar historial de commits
+git log --oneline --graph --all
+
+git diff
+git  diff head
+
+mostar todos lo commits
+git log --oneline
+
+
+para regresar la version del codigo
+git checkout identificador del codigo (5e00144)
